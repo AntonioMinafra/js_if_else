@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nome = 'luca';
+        let numero = 22;
+
+        if(nome == 'luca'){
+            console.log('ciaoluca');
+        }else if(nome == 'marco'){
+            console.log('ciao marco');
+        }else{
+            console.log('ciao persona anonima');
+        }
+
+        if(numero < 20){
+            if(numero % 2 == 0)
+            console.log( 'numero pari');
+            else{
+            console.log('numero dispari');
+            }
+        }
+
+        if(numero <20 || numero % 2 == 0){
+            console.log('ok')
+
+        }else{
+            console.log('non va bene')
+        }
+        /*if(!(nome == 'luca')){
+            console.log('ok');
+        }else {
+            console.log('non va bene');
+        }*/
+
+        /*let isOnline = false;
+        
+        if(!isOnline) {
+            console.log('non è online');
+        }else {
+            console.log('è online');
+        }*/
+        /*switch(nome){
+            case'luca':
+            console.log('ciao luca');
+            break;/* questo serve per bloccare la lettura del codice*/
+            /*case'marco':
+            console.log('ciao marco');
+            break;
+            case'gino':
+            console.log('ciao gino');
+            break;
+            default:
+            console.log('non so il tuo nome');
+           }*/
+           /* lo switch serfve per comprimere un po il codice e lo fai in casistiche 
+           senza che fai tante righe di cosice ( almeno su tante casistiche) */
+           //let numero = 15;
+           //let nome = (numero<20) ? 'luca' : 'leo';
+
+           //console.log(nome);
+
+           /* traduzione: è il numero minore di 20? (si luca) : (no leo)*/
+    </script>
+    <!--
+        con 'and' (&&) e nella condizione deve andare bene a tutta la condizione,
+        se ad una non combacia non va bene
+        con 'or' (||) invece basta che solo una di quella condizione combacia che andrà bene
+        con 'not' (!) è una negazione quindi nega la condizione direttamente
+    -->
+</body>
+</html>
